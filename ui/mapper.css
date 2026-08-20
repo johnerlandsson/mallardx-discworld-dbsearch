@@ -138,6 +138,20 @@ body {
 .room-temple                             { fill: #2d1a47; }
 .room-gather                             { fill: #4a4a1a; }
 
+[data-theme="light"] .room-shop, [data-theme="light"] .room-weapon, [data-theme="light"] .room-armour,
+[data-theme="light"] .room-clothes, [data-theme="light"] .room-food, [data-theme="light"] .room-access,
+[data-theme="light"] .room-furniture, [data-theme="light"] .room-talker, [data-theme="light"] .room-stationery { fill: #c8e8d4; }
+[data-theme="light"] .room-bank, [data-theme="light"] .room-changer, [data-theme="light"] .room-mission,
+[data-theme="light"] .room-post, [data-theme="light"] .room-lang                   { fill: #f0d8b0; }
+[data-theme="light"] .room-crafts                             { fill: #c0e0c8; }
+[data-theme="light"] .room-tavern, [data-theme="light"] .room-pub                  { fill: #f0e0a0; }
+[data-theme="light"] .room-house                              { fill: #e8c8a8; }
+[data-theme="light"] .room-club                               { fill: #c8c8f0; }
+[data-theme="light"] .room-pshop                              { fill: #f0c8ec; }
+[data-theme="light"] .room-tshop                              { fill: #e8e8f0; }
+[data-theme="light"] .room-temple                             { fill: #d8c8f0; }
+[data-theme="light"] .room-gather                             { fill: #e8e0a8; }
+
 /* ─── CTF Arena room types ─────────────────────────────────────────────────── */
 [class^="room-ctf-"], [class*=" room-ctf-"] { font-size: 8px; }
 .room-ctf-guard          { fill: #3c3820; }
